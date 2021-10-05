@@ -14,13 +14,13 @@
 
 
 # Sobre
-<p>Este é um projeto pessoal de construção de uma API para ecommerce, e possui atualmente, as seguintes funcionalidades:</p>
-<p> -> Sistema de login (com diferenciação de permissões de acesso [user/admin])</p>
+<p>Este é um projeto de uma API para ecommerce, e possui atualmente as seguintes funcionalidades:</p>
+<p> -> Sistema de login (com níveis de permissões de acesso [user/admin])</p>
 <p> -> Criação, deleção e alteração de usuários</p>
 <p> -> Criação, deleção e alteração de produtos</p>
 <p> -> Criação, deleção e alteração de pedidos</p>
 <p> -> Carrinho de compras</p>
-<p> -> Segurança/autenticação da API com JWT token, sendo necessário enviar token retornado pela rota de login no cabeçalho de todas as chamadas para as rotas que exigem autenticação (usuário normal ou admin) </p>
+<p> -> Segurança/autenticação da API com Jsonwebtoken, sendo necessário enviar token retornado pela rota de login no cabeçalho de todas as chamadas para as demais rotas que exigem autenticação (usuário ou admin) </p>
 <br>
 <br>
 <br>
